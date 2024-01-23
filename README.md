@@ -22,3 +22,14 @@ In this Challenge, I created two Python scripts to analyse the financial records
 - A complete list of candidates who received votes
 - The percentage of votes each candidate won
 - The total number of votes each candidate won
+
+## Reference
+- date_greatest_increase = dates[index_greatest_increase]
+date_greatest_decrease = dates[index_greatest_decrease]
+https://chat.openai.com/c/c29a6b0a-b978-4a55-b36f-2cb0893b672f
+
+- with open(output_file_path, 'w')as output_file:
+    output_file.write('Election Results\n')
+    output_file.write('--------------------------\n')
+    output_file.write(f'Total Votes : {total_vote_number}\n')
+    output_file.write(f'--------------------------\n')
